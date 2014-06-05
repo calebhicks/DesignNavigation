@@ -17,7 +17,23 @@
     
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[DNPlaygroundViewController new]];
     
-    // Override point for customization after application launch.
+
+    
+    id appearance = [UINavigationBar appearanceWhenContainedIn:[UIView class], nil];
+                     
+    [appearance setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"Times" size:42]}];
+    [appearance setBarTintColor:[UIColor redColor]];
+    
+    [[UISegmentedControl appearance] setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"Avenir" size:10]} forState:UIControlStateSelected];
+    [[UISegmentedControl appearance] setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"Avenir" size:16]} forState:UIControlStateHighlighted];
+    
+    [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTintColor:[UIColor purpleColor]];
+    [[UIBarButtonItem appearanceWhenContainedIn:[UIToolbar class], nil] setTintColor:[UIColor orangeColor]];
+    [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"Avenir" size:40]} forState:UIControlStateHighlighted];
+    
+    
+    [[UIToolbar appearance] setBackgroundColor:[UIColor blueColor]];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

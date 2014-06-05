@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>34F21524-5D08-4F53-802B-960F3C38E4FD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DesignNavigation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BDD718D7-9C4F-4EC7-9236-D981B41A3126</key>
+		<string>https://github.com/calebhicks/DesignNavigation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DesignNavigation.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BDD718D7-9C4F-4EC7-9236-D981B41A3126</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/calebhicks/DesignNavigation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BDD718D7-9C4F-4EC7-9236-D981B41A3126</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BDD718D7-9C4F-4EC7-9236-D981B41A3126</string>
+			<key>IDESourceControlWCCName</key>
+			<string>designnavigation</string>
+		</dict>
+	</array>
+</dict>
+</plist>
